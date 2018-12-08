@@ -13,7 +13,7 @@ function getModelById(){
 
     if((fontSize) && productByModel){
         modal.classList.toggle('hide');
-        productByModel.style.fontSize = (fontSize);
+        productByModel.style.fontSize = (fontSize + "px");
         productByModel.style.fontWeight = "bold";
     }else{
         if(fontSize && MODEL){
